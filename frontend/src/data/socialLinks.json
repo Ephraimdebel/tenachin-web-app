@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Facebook",
+    "icon": "bi bi-facebook",
+    "url": "https://facebook.com/tenachin"
+  },
+  {
+    "name": "Telegram",
+    "icon": "bi bi-telegram",
+    "url": "https://t.me/tenachin0978224422"
+  },
+  {
+    "name": "WhatsApp",
+    "icon": "bi bi-whatsapp",
+    "url": "https://wa.me/251978224422"
+  },
+  {
+    "name": "TikTok",
+    "icon": "bi bi-tiktok",
+    "url": "https://www.tiktok.com/@tenachin"
+  },
+  {
+    "name": "YouTube",
+    "icon": "bi bi-youtube",
+    "url": "https://youtube.com/@tenachin"
+  },
+  {
+    "name": "LinkedIn",
+    "icon": "bi bi-linkedin",
+    "url": "https://linkedin.com/company/tenachin"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  { "id": 1, "icon": "bi-person-badge", "color": "#6610f2", "title": "Super-Specialists / Subspecialists" },
+  { "id": 2, "icon": "bi-person-badge-fill", "color": "#fd7e14", "title": "Specialists" },
+  { "id": 3, "icon": "bi-person", "color": "#20c997", "title": "General Practitioners (GPs)" },
+  { "id": 4, "icon": "bi-globe", "color": "#0dcaf0", "title": "Public Health Experts" },
+  { "id": 5, "icon": "bi-capsule", "color": "#dc3545", "title": "Pharmacists" },
+  { "id": 6, "icon": "bi-heart-pulse", "color": "#6f42c1", "title": "Allied Health Experts" },
+  { "id": 7, "icon": "bi-capsule-pill", "color": "#17a2b8", "title": "Clinical Pharmacists" },
+  { "id": 8, "icon": "bi-file-earmark-medical", "color": "#fdc107", "title": "ePrescription Coordinators" },
+  { "id": 9, "icon": "bi-apple", "color": "#28a745", "title": "Nutritionists & Dietitians" },
+  { "id": 10, "icon": "bi-bicycle", "color": "#343a40", "title": "Lifestyle Medicine Coaches" },
+  { "id": 11, "icon": "bi-pregnant", "color": "#e83e8c", "title": "Maternal & Child Nutrition Experts" },
+  { "id": 12, "icon": "bi-people", "color": "#007bff", "title": "Marriage & Family Counselors" },
+  { "id": 13, "icon": "bi-chat-dots", "color": "#f3268c", "title": "Mental Health Counselors" },
+  { "id": 14, "icon": "bi-emoji-frown", "color": "#fd7e14", "title": "Addiction & Trauma Therapists" }
+]

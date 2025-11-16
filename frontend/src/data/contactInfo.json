@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "bi bi-telephone",
+    "title": "Phone",
+    "content": "+251978224422 / +251111544343"
+  },
+  {
+    "icon": "bi bi-envelope",
+    "title": "Website",
+    "content": "tenachin.org"
+  },
+  {
+    "icon": "bi bi-envelope",
+    "title": "Email Us",
+    "content": "hello@tenachin.org | partnerships@tenachin.org | info@tenachin.org | CEO@tenachin.org"
+  },
+  {
+    "icon": "bi bi-envelope",
+    "title": "Office",
+    "content": "Addis Ababa, 6 kilo, International Leadership Institute Building, Office 511"
+  }
+]

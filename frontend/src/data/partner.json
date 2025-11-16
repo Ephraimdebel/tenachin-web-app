@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "icon": "bi bi-diagram-3",
+    "color": "#0dcaf0",
+    "title": "Service Integration",
+    "description": "Seamless digital health integration with existing systems."
+  },
+  {
+    "id": 2,
+    "icon": "bi bi-mortarboard",
+    "color": "#fd7e14",
+    "title": "Training & Capacity Building",
+    "description": "Upskilling health workers and digital teams for impact."
+  },
+  {
+    "id": 3,
+    "icon": "bi bi-bar-chart-line",
+    "color": "#20c997",
+    "title": "Research & Data Collaboration",
+    "description": "Joint studies, data sharing, and evidence-based innovation."
+  },
+  {
+    "id": 4,
+    "icon": "bi bi-cpu",
+    "color": "#6610f2",
+    "title": "Technology Development",
+    "description": "Co-create digital tools and platforms for health solutions."
+  },
+  {
+    "id": 5,
+    "icon": "bi bi-building",
+    "color": "#f3268c",
+    "title": "Public Health Campaigns",
+    "description": "Collaborative outreach for vaccination, nutrition, and more."
+  },
+  {
+    "id": 6,
+    "icon": "bi bi-person-badge",
+    "color": "#dc3545",
+    "title": "Health Workforce Strengthening",
+    "description": "Support and empower frontline health professionals."
+  },
+  {
+    "id": 7,
+    "icon": "bi bi-people",
+    "color": "#28a745",
+    "title": "Community Engagement & Inclusion",
+    "description": "Ensure diverse voices and needs shape health solutions."
+  },
+  {
+    "id": 8,
+    "icon": "bi bi-shield-check",
+    "color": "#007bff",
+    "title": "System Strengthening & Policy Support",
+    "description": "Advise and assist on digital health policy and system design."
+  }
+]
