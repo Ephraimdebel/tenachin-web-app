@@ -1,6 +1,25 @@
 import React from "react";
-
+import { useEffect } from "react";
+import axion from "axios";
 const Hero = () => {
+  const [title, setTitle] = React.useState("");
+  const [descriptionOne, setDescriptionOne] = React.useState("");
+  const [descriptionTwo, setDescriptionTwo] = React.useState("");
+  useEffect(() => {
+   const fetchHeroData = async () => {
+      try {
+        const response = await axion.get('http://localhost:5000/api/herosection');
+        const data = response.data[0];
+        setTitle(data.title);
+        setDescriptionOne(data.description_one);
+        setDescriptionTwo(data.description_two);
+      } catch (error) {
+        console.error('Error fetching hero section data:', error);
+      }
+    };
+    fetchHeroData();
+  }, []);
+  console.log(title,descriptionOne,descriptionTwo)
   return (
     <section id="hero" className="hero section dark-background">
       <div
@@ -13,15 +32,17 @@ const Hero = () => {
         <div className="carousel-item active">
           <div className="carousel-container">
             <h2 className="animate__animated animate__fadeInDown">
-              Welcome to <span>Tenachin Telehealth</span>
+              {/* {Welcome to <span>Tenachin Telehealth</span>} */}
+              {title}
             </h2>
             <p className="animate__animated animate__fadeInUp">
-              Born from deep experience and firsthand understanding of Africa’s
+              {/* Born from deep experience and firsthand understanding of Africa’s
               healthcare challenges, Tenachin is not just another platform—it’s
               a revolution. We are Africa’s first multilingual, full-spectrum
               telehealth ecosystem, built by doctors, engineers, and global
               experts after years of meticulous observation and frontline
-              service.
+              service. */}
+              {descriptionOne}
             </p>
             <a
               href="#about"
@@ -36,13 +57,16 @@ const Hero = () => {
         <div className="carousel-item">
           <div className="carousel-container">
             <h2 className="animate__animated animate__fadeInDown">
-              Welcome to <span>Tenachin Telehealth</span>
+              {/* Welcome to <span>Tenachin Telehealth</span> */}
+              {title}
             </h2>
             <p className="animate__animated animate__fadeInUp">
-              From emergency care to lifestyle coaching, from tele-ICU to mental
+              {/* From emergency care to lifestyle coaching, from tele-ICU to mental
               health, from prescription to prevention—we deliver world-class,
               multi-specialty care led by a trusted team of renowned physicians
               and subspecialists.
+              */}
+              {descriptionTwo}
             </p>
             <a
               href="#about"
