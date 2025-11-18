@@ -15,6 +15,9 @@ import "../../assets/template_asset/vendor/animate.css/animate.min.css"
 import "../../assets/template_asset/vendor/glightbox/css/glightbox.min.css"
 import "../../assets/template_asset/vendor/swiper/swiper-bundle.min.css"
 import "../../assets/template_asset/css/main.css";
+// at top of index.js / main.jsx
+import '../../assets/template_asset/vendor/bootstrap/js/bootstrap.bundle.min.js';
+
 
 import Hero from "../components/Hero";
 import About from "../components/About";
