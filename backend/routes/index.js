@@ -4,6 +4,8 @@ const express = require("express");
 const herosectionRoutes = require("./herosection.route");
 // import install routes
 const installRoutes = require("./install.routes");
+// import about route
+const aboutSection = require("./about.routes")
 
 // initialize router
 const router = express.Router();
@@ -13,6 +15,8 @@ const router = express.Router();
 router.use(installRoutes);
 // hero section route
 router.use("/herosection", herosectionRoutes);
+// about section route
+router.use("/aboutsection",aboutSection)
 
 // export the router
 module.exports = router;

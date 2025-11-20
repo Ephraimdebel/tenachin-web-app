@@ -12,7 +12,7 @@ const Hero = () => {
     const fetchHeroData = async () => {
       try {
         const response = await publicAxios.get("/herosection");
-        const data = response.data[0];
+        const data = response?.data[0];
         // Set state values for the hero content
         setTitle(data?.title);
         setDescriptionOne(data?.description_one);
