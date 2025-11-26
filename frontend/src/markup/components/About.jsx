@@ -3,8 +3,8 @@ import { publicAxios } from "../../utils/axios/publicAxiosInstance";
 
 const About = () => {
   const [descriptionLeft, setDescriptionLeft] = useState("");
-  const [descriptionRight, setDescriptionRight] = useState("");
-  const [listItems, setListItems] = useState([]);
+  // const [descriptionRight, setDescriptionRight] = useState("");
+  // const [listItems, setListItems] = useState([]);
 
 
   useEffect(() => {
@@ -16,8 +16,8 @@ const About = () => {
         const data = response?.data;
         // Set state values for the hero content
         setDescriptionLeft(data?.description_left);
-        setDescriptionRight(data?.description_right);
-        setListItems(data?.list_items);
+        // setDescriptionRight(data?.description_right);
+        // setListItems(data?.list_items);
       } catch (error) {
         console.error("Error fetching hero section data:", error);
       }
@@ -38,7 +38,7 @@ const About = () => {
       <div className="container">
         <div className="row gy-4">
           <div
-            className="col-lg-6 content"
+            className="content"
             data-aos="fade-up"
             data-aos-delay="100"
           >
@@ -46,21 +46,21 @@ const About = () => {
               {descriptionLeft}
             </p>
 
-             <ul>
+             {/* <ul>
               {listItems?.map((item, index) => (
                 <li key={index}>
                   <i className="bi bi-check2-circle"></i>
                   <span> {item?.text}</span>
                 </li>
               ))}
-            </ul>
+            </ul> */}
           </div>
 
-          <div className="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          {/* <div className="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <p>
               {descriptionRight}
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
